@@ -1,16 +1,43 @@
-# React + Vite
+# M Saad Mustafa | MERN Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌐 **Live Demo:** https://port-folio-brown-seven.vercel.app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About This Project
 
-## React Compiler
+This is my **personal portfolio website** built to showcase my projects, skills, and contact details as a full‑stack developer.  
+It demonstrates responsive design, modern UI, and my ability to build real world web applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Main Highlights:**
+- Responsive and modern UI design
+- Interactive project section
+- Contact form
+- Live deployed website
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **Build Tool:** Vite  
+- **Deployment:** Vercel  
+- **Language:** JavaScript
+
+---
+
+## 📁 Features
+
+✔ Home Page – Introduction & welcome  
+✔ Projects Section – Live previews with links  
+✔ Contact Form – For potential clients or recruiters  
+✔ Mobile‑first responsive design
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/MSaad091/PortFolio.git
