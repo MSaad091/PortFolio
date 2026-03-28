@@ -1,0 +1,131 @@
+/* ===== RESUME PAGE ===== */
+.resume-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading */
+.resume-container h2 {
+  font-size: 36px;
+  color: #fff;
+  position: relative;
+  margin-top: 100px;
+}
+
+.resume-container h2::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background: #2563eb;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+/* PDF Preview */
+.resume-frame {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Buttons Wrapper */
+.resume-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Common Button */
+.resume-btn {
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 180px;
+}
+
+/* View Button */
+.view-btn {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.4);
+}
+
+.view-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.6);
+}
+
+/* Download Button */
+.download-btn {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  background: transparent;
+}
+
+.download-btn:hover {
+  background: #2563eb;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* ===== ANIMATION ===== */
+.resume-container {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .resume-container h2 {
+    font-size: 28px;
+  }
+
+  .resume-frame {
+    height: 400px;
+  }
+
+  .resume-btn {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-container h2 {
+    font-size: 22px;
+  }
+
+  .resume-frame {
+    height: 300px;
+  }
+
+  .resume-btn {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}

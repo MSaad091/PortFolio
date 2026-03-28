@@ -1,0 +1,175 @@
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 30px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+hr {
+  width: 150px;
+  margin: 15px auto 30px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgb(63, 133, 133), transparent);
+  border: none;
+  border-radius: 4px;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  width: 350px;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  border-color: rgb(63, 133, 133);
+}
+
+/* Image Container - for better centering */
+.project-card .project-image {
+  width: 100%;
+  height: 220px; /* Slightly reduced for better proportions */
+  object-fit: contain; /* Changed from cover to contain */
+  object-position: center; /* Center the image */
+  background-color: #f8f8f8; /* Light background for images with transparency */
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 10px; /* Add some padding around the image */
+  transition: transform 0.4s ease;
+  border: 1px solid #f0f0f0;
+}
+
+/* Image hover effect */
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+
+/* Text Styles */
+.project-title {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #222;
+  font-weight: 600;
+  width: 100%;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+/* Link styling */
+.project-desc {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.project-desc a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(63, 133, 133);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: 1px solid rgb(63, 133, 133);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.project-desc a:hover {
+  background-color: rgb(63, 133, 133);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(63, 133, 133, 0.3);
+}
+
+/* Info and Technology text */
+.project-price {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 8px 0;
+  width: 100%;
+  text-align: left;
+  padding: 0 10px;
+  line-height: 1.5;
+}
+
+.project-price:first-of-type {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.project-price strong {
+  color: #333;
+  font-weight: 600;
+}
+
+/* No projects message */
+.project-container > p {
+  font-size: 1.2rem;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .project-card {
+    width: 300px;
+    padding: 15px;
+  }
+  
+  .project-card .project-image {
+    height: 180px;
+  }
+  
+  .project-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-container {
+    padding: 20px 10px;
+    gap: 15px;
+  }
+  
+  .project-card {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .project-card .project-image {
+    height: 160px;
+  }
+}

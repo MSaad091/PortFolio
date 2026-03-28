@@ -1,0 +1,210 @@
+/* You can reuse the same styles from Project.css */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 30px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+/* Optional: Add a gradient effect to the heading */
+h1::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgb(63, 133, 133), transparent);
+}
+
+hr {
+  width: 150px;
+  margin: 15px auto 30px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgb(195, 228, 228), transparent);
+  border: none;
+  border-radius: 4px;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  width: 380px; /* Slightly wider to accommodate description */
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  border-color: rgb(63, 133, 133);
+}
+
+/* Image Container */
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 10px;
+  transition: transform 0.4s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+
+/* Title */
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #222;
+  font-weight: 600;
+  width: 100%;
+}
+
+/* Owner/User Panel */
+.project-owner {
+  font-size: 1rem;
+  color: rgb(63, 133, 133);
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding: 3px 12px;
+  background-color: rgba(63, 133, 133, 0.1);
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* Link styling */
+.project-desc {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.project-desc a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(63, 133, 133);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 25px;
+  border: 1px solid rgb(63, 133, 133);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.project-desc a:hover {
+  background-color: rgb(63, 133, 133);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(63, 133, 133, 0.3);
+}
+
+/* Info text */
+.project-price {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 8px 0;
+  width: 100%;
+  text-align: left;
+  padding: 0 5px;
+  line-height: 1.5;
+}
+
+/* Description text */
+.project-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 10px 0 5px;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  line-height: 1.6;
+  border-left: 3px solid rgb(63, 133, 133);
+}
+
+/* Strong tags styling */
+.project-price strong,
+.project-description strong {
+  color: #333;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+/* No projects message */
+.project-container > p {
+  font-size: 1.2rem;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .project-card {
+    width: 320px;
+    padding: 15px;
+  }
+  
+  .project-image {
+    height: 170px;
+  }
+  
+  .project-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-container {
+    padding: 20px 10px;
+    gap: 15px;
+  }
+  
+  .project-card {
+    width: 100%;
+    max-width: 340px;
+  }
+  
+  .project-image {
+    height: 150px;
+  }
+}

@@ -1,0 +1,140 @@
+/* ===== GLOBAL ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: #ffffff;
+  margin-top: 80px;
+  border-radius: 30px;
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== IMAGE ===== */
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 6px solid #2563eb;
+  object-fit: cover;
+}
+
+/* ===== CONTENT ===== */
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  color: #0f172a;
+}
+
+.hero-content span {
+  color: #2563eb;
+}
+
+.hero-content h2 {
+  margin: 10px 0;
+  color: #4b5563;
+}
+
+.hero-content p {
+  color: #4b5563;
+  line-height: 1.7;
+  margin: 20px 0;
+}
+
+/* ===== BUTTONS ===== */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Primary */
+.primary-btn {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #fff;
+  border: none;
+}
+
+.primary-btn:hover {
+  transform: translateY(-3px);
+}
+
+/* Secondary */
+.secondary-btn {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+  background: transparent;
+}
+
+.secondary-btn:hover {
+  background: #2563eb;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: auto;
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+    max-width: 250px;
+  }
+}

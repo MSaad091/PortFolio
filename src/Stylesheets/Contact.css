@@ -1,0 +1,114 @@
+/* ===== CONTACT CONTAINER ===== */
+.contact-container {
+  max-width: 600px;
+  margin: 60px auto;
+  margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== HEADINGS ===== */
+.contact-container h2 {
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.contact-subtext {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* ===== CONTACT INFO ===== */
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* ===== SOCIAL LINKS ===== */
+.contact-socials {
+  margin: 20px 0;
+}
+
+.contact-socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4f46e5;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-socials a:hover {
+  color: #4338ca;
+  text-decoration: underline;
+}
+
+/* ===== FORM ===== */
+.contact-form {
+  margin-top: 20px;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Focus effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
+}
+
+/* ===== BUTTON ===== */
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.contact-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+}
+
+/* ===== STATUS MESSAGE ===== */
+.form-status {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+  .contact-container {
+    margin: 40px 15px;
+    padding: 20px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
