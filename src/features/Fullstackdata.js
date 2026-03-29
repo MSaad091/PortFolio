@@ -39,8 +39,8 @@ const fullstackSlice = createSlice({
   link:"https://mern-ecommerce-app-psi.vercel.app",
   info:"Ecommerce web application built with MERN stack.",
   desc:"This is a MERN stack ecommerce application where users can register and login to their account, browse products, add items to cart, and place orders online. Users can also view their orders and manage their shopping experience. The project is built using MongoDB for database, Express.js and Node.js for backend API, and React.js for the frontend interface.",
-   pass:"pool1",
-  Mail:"pool1@gmail.com",
+   pass:"pool",
+  Mail:"pool@gmail.com",
   message:"login this email"
 },
 {
@@ -51,9 +51,9 @@ const fullstackSlice = createSlice({
   link:"https://mern-ecommerce-app-swrd.vercel.app",
   info:"Admin dashboard to manage ecommerce platform.",
   desc:"This admin panel allows the administrator to manage the ecommerce platform. Admin can create, update, and delete products, manage categories, view user details, and monitor customer orders. The project is built using MongoDB, Express.js, React.js, and Node.js (MERN Stack).",
-  // pass:"pool1",
-  // Mail:"pool1@gmail.com",
-  // message:"login this email"
+  pass:"pool",
+  Mail:"pool@gmail.com",
+  message:"login this email"
 },
 {
   id:"5",
@@ -62,7 +62,11 @@ const fullstackSlice = createSlice({
   owner:"Blog Platform",
   link:"https://blog-app-znpr.vercel.app",
   info:"Blog web application built with MERN stack.",
-  desc:"This is a MERN stack blog application where users can register, login, create blog posts, and update their blogs. Users can also read blogs shared on the platform. The application is built using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for storing blog data."
+  desc:"This is a MERN stack blog application where users can register, login, create blog posts, and update their blogs. Users can also read blogs shared on the platform. The application is built using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for storing blog data.",
+  
+  pass:"pool1",
+  Mail:" pool1@gmail.com",
+  message:"login this email"
 },
 {
   id:"6",
@@ -71,7 +75,10 @@ const fullstackSlice = createSlice({
   owner:"Web Application",
   link:"https://auth-app-ten-bay.vercel.app",
   info:"User authentication system built with MERN stack.",
-  desc:"This is a MERN stack authentication application where users can register an account, login securely, and update their profile information. The project demonstrates user authentication, protected routes, and profile management. It is built using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for storing user data."
+  desc:"This is a MERN stack authentication application where users can register an account, login securely, and update their profile information. The project demonstrates user authentication, protected routes, and profile management. It is built using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for storing user data.",
+  pass:"pool",
+  Mail:" pool@gmail.com",
+  message:"login this email"
 },
 {
   id:"7",
@@ -80,9 +87,13 @@ const fullstackSlice = createSlice({
   owner:"Web Application",
   link:"https://todo-app-isti.vercel.app",
   info:"User authentication system built with MERN stack.",
- desc: "This is a MERN stack Todo application where users can register, login, and manage their tasks securely. The project demonstrates full CRUD functionality, user authentication, protected routes, and personalized task management. It is built using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for storing user todos."
+ desc: "This is a MERN stack Todo application where users can register, login, and manage their tasks securely. The project demonstrates full CRUD functionality, user authentication, protected routes, and personalized task management. It is built using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for storing user todos.",
+  pass:"12345",
+  Mail:"Saad@gmail.com",
+  message:"login this email"
 }
   ]
 }
 })
-export default fullstackSlice.reducer
+export default fullstackSlice.reducer 
+

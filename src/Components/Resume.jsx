@@ -1,34 +1,3 @@
-// import React from "react";
-// import '../Stylesheets/Resume.css';
-
-// function Resume() {
-//   return (
-//     <div className="resume-container">
-//       <h2>My Resume</h2>
-
-//       {/* 👀 View Resume */}
-//       <a
-//         href="/Saad_MERN_Developer_Resume.pdf"
-//         target="_blank"
-//         rel="noopener noreferrer"
-//         className="resume-btn"
-//       >
-//         View Resume
-//       </a>
-
-//       {/* ⬇ Download Resume */}
-//       <a
-//         href="/Saad_MERN_Developer_Resume.pdf"
-//         download
-//         className="resume-btn"
-//       >
-//         Download Resume
-//       </a>
-//     </div>
-//   );
-// }
-
-// export default Resume;
 import React from "react";
 import "../Stylesheets/Resume.css";
 
@@ -40,7 +9,7 @@ function Resume() {
 
       {/* 📄 Resume Preview */}
       <iframe
-        src="/M_Saad_ATS_Resume.pdf"
+        src="/Saad_MERN_Developer_Resume_Updated.pdf"
         title="Resume"
         className="resume-frame"
       ></iframe>
@@ -50,7 +19,7 @@ function Resume() {
         
         {/* 👀 View Resume */}
         <a
-          href="/M_Saad_ATS_Resume.pdf"
+          href="/Saad_MERN_Developer_Resume_Updated.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn view-btn"
@@ -60,7 +29,7 @@ function Resume() {
 
         {/* ⬇ Download Resume */}
         <a
-          href="/M_Saad_ATS_Resume.pdf"
+          href="/Saad_MERN_Developer_Resume_Updated.pdf"
           download
           className="resume-btn download-btn"
         >
