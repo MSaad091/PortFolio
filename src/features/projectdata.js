@@ -10,7 +10,7 @@ const projectdataSlice = createSlice({
                 projectlink:"https://react-ecommerce-app-two-pi.vercel.app",
                   technology:"React js",
                info:"React js and using Redux Toolkit",
-                img:"/public/Screenshot (172).png"
+                img:"/Screenshot (172).png"
             },
             {
                 id:"2",
@@ -26,7 +26,7 @@ const projectdataSlice = createSlice({
                 projectlink:"https://hotel-reservation-system-dun.vercel.app",
                 technology:"React js",
                info:"React js and using Redux Toolkit",
-                img:"/public/Screenshot (173).png"
+                img:"/Screenshot (173).png"
             }
             ,   {
                 id:"4",
