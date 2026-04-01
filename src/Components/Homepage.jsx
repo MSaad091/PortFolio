@@ -30,7 +30,7 @@ function Homepage() {
           <div className="hero-image">
             <img
             
-              src="/public/ChatGPT Image Apr 1, 2026, 09_20_08 AM.png"
+              src="/ChatGPT Image Apr 1, 2026, 09_20_08 AM.png"
               alt="Muhammad Saad Mustafa"
             />
           </div>
