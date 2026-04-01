@@ -29,7 +29,8 @@ function Homepage() {
 
           <div className="hero-image">
             <img
-              src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+            
+              src="/public/ChatGPT Image Apr 1, 2026, 09_20_08 AM.png"
               alt="Muhammad Saad Mustafa"
             />
           </div>
