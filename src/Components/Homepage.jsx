@@ -1,5 +1,6 @@
 import React from "react";
 import "../Stylesheets/Home.css";
+import ProfileImage from '../assets/ChatGPT Image Apr 1, 2026, 09_20_08 AM.png'
 import { useLocation, useNavigate } from "react-router-dom";
 
 function Homepage() {
@@ -30,7 +31,9 @@ function Homepage() {
           <div className="hero-image">
             <img
             
-              src="../assets/ChatGPT Image Apr 1, 2026, 09_20_08 AM.png"
+              // src="../assets/ChatGPT Image Apr 1, 2026, 09_20_08 AM.png"
+              // src=""
+              src={ProfileImage}
               alt="Muhammad Saad Mustafa"
             />
           </div>
