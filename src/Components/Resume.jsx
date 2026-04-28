@@ -9,7 +9,7 @@ function Resume() {
 
       {/* 📄 Resume Preview */}
       <iframe
-        src="/SaadNasir.pdf"
+        src="/SaadMustafa.pdf"
         title="Resume"
         className="resume-frame"
       ></iframe>
@@ -19,7 +19,7 @@ function Resume() {
         
         {/* 👀 View Resume */}
         <a
-          href="/SaadNasir.pdf"
+          href="/SaadMustafa.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn view-btn"
@@ -30,7 +30,7 @@ function Resume() {
         {/* ⬇ Download Resume */}
         <a
         
-          href="/Saad_MERN_Developer_Resume_Updated_With_Phone.pdf"
+          href="/SaadMustafa.pdf"
           download
           className="resume-btn download-btn"
         >
